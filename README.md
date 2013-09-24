@@ -53,6 +53,19 @@ following commands:
 **Warning:** This will overwrite any output file without confirmation. Do _NOT_
 specify the same input and output file.
 
+## Acknowledgements
+
+ * Contributors to XDA's [Perl scripts to encrypt/decrypt adb backup files][1]
+   thread:
+   1. *puterboy* for tarfix.pl as an initial pointer into how the TAR file was
+      chunked, even though his description isn't fully accurate.
+   2. *binaryhero* for better description of uncompressed data being dumped
+      into the middle of the output data file
+ * [GrepCode][2] for hosting the Java parts of Android's API source
+
+[1]: http://forum.xda-developers.com/showthread.php?t=1730309
+[2]: http://grepcode.com/file/repository.grepcode.com/java/ext/com.google.android/android/4.0.4_r2.1/com/android/server/BackupManagerService.java#BackupManagerService.PerformFullBackupTask.backupSharedStorage%28%29
+
 ## License
 
 >The MIT License (MIT)
